@@ -20,7 +20,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/robimarko/openwrt
+  REPO_URL: https://github.com/fancylaputa/openwrt-1
   REPO_BRANCH: ipq807x-5.15
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: AX6_5.15.config
