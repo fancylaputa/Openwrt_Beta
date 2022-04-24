@@ -18,4 +18,6 @@ echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.defau
 echo 'src-git leanpackages https://github.com/coolsnowwolf/packages' >>feeds.conf.default
 echo 'src-git leanluci https://github.com/coolsnowwolf/luci' >>feeds.conf.default
 
+svn checkout https://github.com/coolsnowwolf/lede/trunk/package/lean package/lean
+
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
