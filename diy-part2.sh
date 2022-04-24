@@ -59,4 +59,4 @@ for i in "dns2socks" "microsocks" "ipt2socks" "pdnsd-alt" "redsocks2"; do \
   svn checkout "https://github.com/immortalwrt/packages/trunk/net/$i" "package/helloworld/$i"; \
 done
 
-svn checkout https://github.com/coolsnowwolf/lede/trunk/package/lean package/lean
+# svn checkout https://github.com/coolsnowwolf/lede/trunk/package/lean package/lean
