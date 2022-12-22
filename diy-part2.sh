@@ -57,9 +57,8 @@ sed -i '/customized in this file/a net.netfilter.nf_conntrack_max=65535' package
 #git clone https://github.com/sensec/ddns-scripts_aliyun.git package/ddns-scripts_aliyun
 git clone https://github.com/fancylaputa/ddns-scripts_aliyun package/ddns-scripts_aliyun
 
-mkdir -p package/helloworld
-for i in "dns2socks" "microsocks" "ipt2socks" "pdnsd-alt" "redsocks2"; do \
-  svn checkout "https://github.com/immortalwrt/packages/trunk/net/$i" "package/helloworld/$i"; \
-done
-
+#mkdir -p package/helloworld
+#for i in "dns2socks" "microsocks" "ipt2socks" "pdnsd-alt" "redsocks2"; do \
+#  svn checkout "https://github.com/immortalwrt/packages/trunk/net/$i" "package/helloworld/$i"; \
+#done
 
