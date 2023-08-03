@@ -21,7 +21,7 @@ on:
 
 env:
   REPO_URL: https://github.com/fancylaputa/openwrt
-  REPO_BRANCH: bitthief-nss-6.1-20230802
+  REPO_BRANCH: bitthief-nss-6.1-20230803
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: AX6_6.1.config
   DIY_P1_SH: diy-part1.sh
