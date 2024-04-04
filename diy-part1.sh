@@ -14,7 +14,7 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-echo 'src-git helloworld https://github.com/fw876/helloworld;main' >>feeds.conf.default
+echo 'src-git helloworld https://github.com/fw876/helloworld;master' >>feeds.conf.default
 #echo 'src-git leanpackages https://github.com/coolsnowwolf/packages' >>feeds.conf.default
 #echo 'src-git leanluci https://github.com/coolsnowwolf/luci' >>feeds.conf.default
 #svn checkout https://github.com/coolsnowwolf/lede/trunk/package/lean package/lean
