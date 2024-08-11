@@ -19,7 +19,7 @@ sed -i 's/192.168.1.1/192.168.31.1/g' package/base-files/files/bin/config_genera
 sed -i '/customized in this file/a net.netfilter.nf_conntrack_max=65535' package/base-files/files/etc/sysctl.conf
 
 git clone https://github.com/fancylaputa/ddns-scripts_aliyun package/ddns-scripts_aliyun
-git clone https://github.com/pexcn/openwrt-chinadns-ng.git package/chinadns-ng
+# git clone https://github.com/pexcn/openwrt-chinadns-ng.git package/chinadns-ng
 
 # Modify hostname
 #sed -i 's/OpenWrt/OpenWrt/g' package/base-files/files/bin/config_generate
